@@ -12,3 +12,4 @@ int sl_delete_last(Slist **head)
     }
     free(temp);
     prev->link = NULL;
+}
